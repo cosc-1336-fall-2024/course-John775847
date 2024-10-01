@@ -1,7 +1,6 @@
 import unittest
 
 # from tests.homework.b_in_proc_out import tests_in_proc_out
-
 # suiteb = unittest.TestLoader().loadTestsFromModule(tests_in_proc_out)
 # unittest.TextTestRunner(verbosity=2).run(suiteb)
 
@@ -13,6 +12,10 @@ import unittest
 # suited = unittest.TestLoader().loadTestsFromModule(tests_repetition)
 # unittest.TextTestRunner(verbosity=2).run(suited)
 
-from tests.homework.e_functions import tests_functions
-suitee = unittest.TestLoader().loadTestsFromModule(tests_functions)
-unittest.TextTestRunner(verbosity=2).run(suitee)
+# from tests.homework.e_functions import tests_functions
+# suitee = unittest.TestLoader().loadTestsFromModule(tests_functions)
+# unittest.TextTestRunner(verbosity=2).run(suitee)
+
+from tests.homework.h_strings import tests_strings
+suiteh = unittest.TestLoader().loadTestsFromModule(tests_strings)
+unittest.TextTestRunner(verbosity=2).run(suiteh)
