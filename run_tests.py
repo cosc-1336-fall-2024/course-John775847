@@ -16,6 +16,14 @@ import unittest
 # suitee = unittest.TestLoader().loadTestsFromModule(tests_functions)
 # unittest.TextTestRunner(verbosity=2).run(suitee)
 
-from tests.homework.h_strings import tests_strings
-suiteh = unittest.TestLoader().loadTestsFromModule(tests_strings)
-unittest.TextTestRunner(verbosity=2).run(suiteh)
+# from tests.homework.h_strings import tests_strings
+# suiteh = unittest.TestLoader().loadTestsFromModule(tests_strings)
+# unittest.TextTestRunner(verbosity=2).run(suiteh)
+
+# from tests.homework.g_lists_and_tuples import tests_lists_and_tuples
+# suiteg = unittest.TestLoader().loadTestsFromModule(tests_lists_and_tuples)
+# unittest.TextTestRunner(verbosity=2).run(suiteg)
+
+from tests.homework.i_dictionaries_sets import tests_dictionaries_and_sets
+suitei = unittest.TestLoader().loadTestsFromModule(tests_dictionaries_and_sets)
+unittest.TextTestRunner(verbosity=2).run(suitei)
