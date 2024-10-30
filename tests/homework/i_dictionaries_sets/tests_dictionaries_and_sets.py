@@ -22,3 +22,4 @@ class Test_Config(unittest.TestCase):
         ]
 
         self.assertEqual(out_matrix, get_p_distance_matrix(in_matrix))
+
